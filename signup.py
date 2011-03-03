@@ -11,7 +11,7 @@ subdomain = 'geekceo'
 
 # connection to query
 h = httplib2.Http("")
-h.add_credentials('kordless', 'password')
+h.add_credentials(username, password)
 
 # connection to arduino server
 j = httplib2.Http("")
